@@ -1,0 +1,22 @@
+useDynLib("lhsc")
+
+import("methods")
+importFrom("graphics", "abline", "axis", "matplot", "points", "segments")
+importFrom("grDevices", "gray.colors")
+importFrom("stats", "nobs")
+importFrom("stats", "predict")
+importFrom("stats", "quantile")
+importFrom("utils", "capture.output")
+
+export(sigest,
+  #-- lhsc functions
+  lhsc, cv.lhsc, plot.lhsc, plot.cv.lhsc, predict.lhsc,
+  #-- kernel functions
+  "rbfdot", "laplacedot", "besseldot", "polydot", "vanilladot", "anovadot", "splinedot" 
+)
+
+S3method("plot", "lhsc")
+S3method("plot", "cv.lhsc")
+S3method("predict", "lhsc")
+
+exportClasses("rbfkernel", "laplacekernel", "besselkernel", "polykernel", "vanillakernel", "anovakernel", "splinekernel")
