@@ -3,10 +3,11 @@ Type: Package
 Title: Leaky Hockey Stick Classifier
 Version: 1.0.0
 Date: 2023-07-01
-Author: Oh-Ran Kwon <kwon0085@umn.edu>, Hui Zou <hzou@stat.umn.edu>
+Author: Oh-Ran Kwon <kwon0085@umn.edu>
 Maintainer: Oh-Ran Kwon <kwon0085@umn.edu>
 Description: This package provides the implementation of leaky hockey stick classifier (LHSC) using the majorization-minimization (MM) principle. 
 Depends: methods
 Imports: graphics, grDevices, stats, utils
 License: GPL-2
 NeedsCompilation: yes
+URL: https://ohrankwon.github.io/lhsc/

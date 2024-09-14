@@ -1,0 +1,14 @@
+url: https://ohrankwon.github.io/lhsc/
+template:
+  bootstrap: 5
+  bootswatch: cosmo
+  
+repo:
+  url:
+    home: https://github.com/ohrankwon/eenvlp/
+    source: https://github.com/ohrankwon/eenvlp/
+    
+authors:
+  Oh-Ran Kwon:
+    href: http://ohrankwon.com/
+    
