@@ -8,6 +8,6 @@ Oh-Ran Kwon and Hui Zou (2023) **Leaky Hockey Stick Loss: The First Negatively D
 You may need the Fortran compiler (gfortran) on your system, as this R package contains Fortran code. To proceed, open an `R` prompt and type the following commands:
 ```
 library(devtools)
-devtools::install_github("ohrankwon/lhsc")
+install_github("ohrankwon/lhsc")
 library(lhsc)
 ```
